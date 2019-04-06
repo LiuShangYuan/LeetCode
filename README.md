@@ -24,3 +24,8 @@ leetcode刷题
     > 2)fix一个数, 得到一个target  
     > 3)用两个指针从前后查找  
     > [reference1](http://www.cnblogs.com/grandyang/p/4481576.html)
+
++ Letter Combinations of a Phone Number
+
+  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Telephone-keypad2.svg/200px-Telephone-keypad2.svg.png)
+- [x] 动态规划
