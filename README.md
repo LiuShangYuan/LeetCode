@@ -39,3 +39,9 @@ leetcode刷题
     
 + Merge Two Sorted Lists
     - [x] 双指针(faster than 100%: 0ms, less than 97.90%)
+    
++ Validate Binary Search Tree(判断一棵树是不是合法的二叉搜索树)  
+    [第二种方法参考](https://www.cnblogs.com/grandyang/p/4298435.html)
+    - [x] 中序遍历, 在判断是不是有序
+    - [x] 二叉搜索树的性质, 节点的子树范围[low, root.val] or [root.val, hight]
+    
