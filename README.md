@@ -45,3 +45,9 @@ leetcode刷题
     - [x] 中序遍历, 在判断是不是有序
     - [x] 二叉搜索树的性质, 节点的子树范围[low, root.val] or [root.val, hight]
     
++ Generate Parentheses  
+    [参考](http://www.cnblogs.com/grandyang/p/4444160.html)
+    - [x] 递归的方法
+        > 从空串构造, 用left和right两个变量分别表示剩余左括号和右括号的数目
+        > left==right==0是说明符合条件, left>right会出现)(这种串
+    
