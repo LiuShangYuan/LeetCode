@@ -50,4 +50,10 @@ leetcode刷题
     - [x] 递归的方法
         > 从空串构造, 用left和right两个变量分别表示剩余左括号和右括号的数目
         > left==right==0是说明符合条件, left>right会出现)(这种串
-    
+
+### day5
+
++ Merge k Sorted Lists
+    - [x] 两两merge (reduce)
+    - [x] 使用PriorityQueue(小顶堆)存储每个链表的当前第一个节点, 堆顶为最小元素
+    - [x] 使用PriorityQueue对元素排序, 在按照value还原成一个链表
