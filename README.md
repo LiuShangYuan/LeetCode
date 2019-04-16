@@ -57,3 +57,7 @@ leetcode刷题
     - [x] 两两merge (reduce)
     - [x] 使用PriorityQueue(小顶堆)存储每个链表的当前第一个节点, 堆顶为最小元素
     - [x] 使用PriorityQueue对元素排序, 在按照value还原成一个链表
+    
++ Next Permutation  
+    [参考](https://www.cnblogs.com/grandyang/p/4428207.html)
+    - [x] 组合数学课程有将, 因为该后面的影响较小, 从后面扫描, 具体见代码注释
