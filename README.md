@@ -61,3 +61,12 @@ leetcode刷题
 + Next Permutation  
     [参考](https://www.cnblogs.com/grandyang/p/4428207.html)
     - [x] 组合数学课程有将, 因为该后面的影响较小, 从后面扫描, 具体见代码注释
+    
+
+### day6
+
++ Longest Valid Parentheses
+    - [x] 利用栈
+    - [x] 动态规划
+        > 从后向前, dp[i]表示以i开始的最长合法子串, dp[s.length()-1] = 0
+        > 根据dp[i+1] 来求解 dp[i], 详细解释见代码注释
