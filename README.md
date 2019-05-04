@@ -71,7 +71,7 @@ leetcode刷题
         > 从后向前, dp[i]表示以i开始的最长合法子串, dp[s.length()-1] = 0
         > 根据dp[i+1] 来求解 dp[i], 详细解释见代码注释
         
-+ Search in Rotated Sorted Array
++ Search in Rotated Sorted Array  
     [参考](https://blog.csdn.net/Irving_zhang/article/details/78192831)
     - [x] 二分  
         > 每次二分之后有一半一定是有序的  
