@@ -77,3 +77,8 @@ leetcode刷题
         > 每次二分之后有一半一定是有序的  
         注意 {3, 1} 这种情况, low == mid, 因为题目假定没有重复元素, 
         因此在nums[low]<=nums[mid]都可以认为low---mid部分是有序的
+        
++ Find First and Last Position of Element in Sorted Array  
+    - [x] 二分后分别向两边搜索  
+    - [x] 用两个二分查找, 分别确定开始的索引和结束的索引
+        > 需要在mid和target相等时进行特殊处理, 让最终的index在开始后结束的位置
