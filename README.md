@@ -70,3 +70,10 @@ leetcode刷题
     - [x] 动态规划
         > 从后向前, dp[i]表示以i开始的最长合法子串, dp[s.length()-1] = 0
         > 根据dp[i+1] 来求解 dp[i], 详细解释见代码注释
+        
++ Search in Rotated Sorted Array
+    [参考](https://blog.csdn.net/Irving_zhang/article/details/78192831)
+    - [x] 二分  
+        > 每次二分之后有一半一定是有序的  
+        注意 {3, 1} 这种情况, low == mid, 因为题目假定没有重复元素, 
+        因此在nums[low]<=nums[mid]都可以认为low---mid部分是有序的
