@@ -82,3 +82,7 @@ leetcode刷题
     - [x] 二分后分别向两边搜索  
     - [x] 用两个二分查找, 分别确定开始的索引和结束的索引
         > 需要在mid和target相等时进行特殊处理, 让最终的index在开始后结束的位置
+        
+        
++ Regular Expression Matching 正则表达式匹配
+    + [x] 动态规划
